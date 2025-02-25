@@ -1,4 +1,3 @@
-# Logs
 logs
 *.log
 npm-debug.log*
@@ -7,18 +6,46 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+node_modules/
+.pnp/
+.pnp.js
 
-# Editor directories and files
+dist/
+dist-ssr/
+*.local
+*.cache
+*.output
+
+out/
+.vite/
+
+*.tsbuildinfo
+
+coverage/
+*.lcov
+
 .vscode/*
 !.vscode/extensions.json
-.idea
+.idea/
 .DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+.env
+.env.*
+!.env.example
+
+Thumbs.db
+*.iml
+
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+*.lock
+yarn.lock
+package-lock.json
+debug.log*
