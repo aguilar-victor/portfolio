@@ -1,3 +1,5 @@
+.gitignore (gitignore)
+
 logs
 *.log
 npm-debug.log*
@@ -6,46 +8,17 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules/
-.pnp/
-.pnp.js
-
-dist/
-dist-ssr/
+node_modules
+dist
+dist-ssr
 *.local
-*.cache
-*.output
-
-out/
-.vite/
-
-*.tsbuildinfo
-
-coverage/
-*.lcov
 
 .vscode/*
 !.vscode/extensions.json
-.idea/
+.idea
 .DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
-
-.env
-.env.*
-!.env.example
-
-Thumbs.db
-*.iml
-
-*.DS_Store
-.AppleDouble
-.LSOverride
-
-*.lock
-yarn.lock
-package-lock.json
-debug.log*
