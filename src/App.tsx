@@ -99,7 +99,7 @@ function App() {
         </div>
 
         {/* Projects section */}
-        <h2 className="text-4xl font-bold text-center mt-24 mb-12 bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-500 reveal">
+        <h2 className="text-4xl font-bold text-center mt-24 mb-12 bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 animate-text leading-loose reveal">
           Featured Projects
         </h2>
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
